@@ -1,0 +1,1144 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: rgb(240, 237, 237);
+  }
+
+  .fundo{
+    position: relative;
+    top: 10px;
+    left: 50%;
+    width: 50%;
+    height: 70vh;
+    background-color: aqua;
+  }
+
+  .div-altura-total {
+    width: 22%;
+    height: 100vh;
+    background: url('montanha.jpg');
+  }
+
+  img{
+    width: 100px; 
+    height: auto; 
+    position:relative;
+  }
+
+  h2{
+    position: absolute;
+    top: 2.5%; 
+    left: 6%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  hr{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px; 
+    border-top: 1px solid black;
+  }
+
+
+.search input{
+    position: relative;
+    width: 85%;
+    height: 7vh;
+    margin-left: 5%;
+    border-radius: 5px;
+    text-align: center;
+    background: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    outline: none;
+}
+
+.search input::placeholder{
+    color: white;
+}
+
+.search i{
+    position: absolute;
+    left: 22px;
+    top: 25%;
+    transform: translateY(50%);
+    font-size: 20px;
+}
+
+.home{
+    position: relative;
+    top: 5%;
+}
+
+.home button{
+    width: 90%;
+    height: 7vh;
+    margin-left: 0;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.home button:hover{
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.home i{
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+}
+
+.agenda{
+  position: relative;
+  top: 5%;
+}
+
+.agenda button{
+  width: 90%;
+  height: 7vh;
+  margin-left: 0;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.agenda button:hover{
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.agenda i{
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+}
+
+.clientes{
+  position: relative;
+  top: 5%;
+}
+
+.clientes button{
+  width: 90%;
+  height: 7vh;
+  margin-left: 0;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.clientes button:hover{
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.clientes i{
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+}
+
+.produto{
+  position: relative;
+  top: 5%;
+}
+
+.produto button{
+  width: 90%;
+  height: 7vh;
+  margin-left: 0;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.produto button:hover{
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.produto i{
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+}
+
+.vendas i{
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+}
+
+.vendas{
+  position: relative;
+  top: 5%;
+}
+
+.vendas button{
+  width: 90%;
+  height: 7vh;
+  margin-left: 0;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.vendas button:hover{
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.estoque{
+  position: relative;
+  top: 5%;
+}
+
+.estoque button{
+  width: 90%;
+  height: 7vh;
+  margin-left: 0;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.estoque button:hover{
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.estoque i{
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+}
+
+.financas{
+  position: relative;
+  top: 5%;
+}
+
+.financas button{
+  width: 90%;
+  height: 7vh;
+  margin-left: 0;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.financas button:hover{
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.financas i{
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+}
+
+.servico{
+  position: relative;
+  top: 5%;
+}
+
+.servico button{
+  width: 90%;
+  height: 7vh;
+  margin-left: 0;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.servico button:hover{
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.servico i{
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+}
+
+.usuarios{
+  position: relative;
+  top: 5%;
+}
+
+.usuarios button{
+  width: 90%;
+  height: 7vh;
+  margin-left: 0;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.usuarios button:hover{
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.usuarios i{
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+}
+
+
+.form-container {
+    position: fixed;
+    top: 45%;
+    left: 23%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 73%;
+    height: 60vh;
+    z-index: 1000;
+    border-radius: 5px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .aba{
+    position: relative;
+    top: -35%;
+    left: 0%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 99%;
+    height: 35vh;
+    z-index: 1000;
+    border-radius: 5px;
+  }
+
+ .colored{
+  color: red;
+ }
+
+  .form-container form{
+    position: relative;
+    top: -23%;
+    left: 5%;
+  }
+  .form-container input{
+    width: 20%;
+    height: 3vh;
+  }
+
+  .form-container select{
+    width: 22%;
+    height: 3vh;
+  }
+
+  .form-container button{
+    position: relative;
+    top: 290px;
+    width: 15%;
+    left: -70px;
+    height: 7vh;
+    background: rgb(18, 18, 121);
+    color: white;
+    border-radius: 7px;
+    border: none;
+  }
+
+  .form-container button:hover{
+    width: 15.5%;
+    height: 7.5vh;
+  }
+
+  .dados{
+    position: relative; 
+    width: 15%; 
+    height:7vh; 
+    background: rgb(19, 19, 105); 
+    top: -27%; 
+    text-align: center; 
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+  }
+
+  .dados p{
+    padding-top: 11px;
+  }
+
+  .cabecalho{
+    position: relative; 
+    top: -22%;
+    height: 5vh;
+  }
+
+  .cabecalho i{
+    position: relative;
+    left: 90%;
+    top: -250%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.menu{
+    position: relative; 
+    top: -18%;
+    height: 1vh;
+    left: 3%;
+}
+
+.form-container label::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+  }
+
+  /*CSS da aba dos Produtos*/
+  .form-container-prod {
+    position: fixed;
+    top: 60%;
+    left: 23%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 73%;
+    height: 60vh;
+    z-index: 1000;
+    border-radius: 5px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .aba-prod{
+    position: relative;
+    top: -40%;
+    left: 0%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 99%;
+    height: 16vh;
+    z-index: 1000;
+    border-radius: 5px;
+  }
+
+  .btn-inserir, .btn-relatorio{
+    position: relative;
+    top: 10%;
+    left: 2%;
+    width: 10%;
+    height: 5vh;
+    border-radius: 3px;
+    border: 1px solid black;
+    background: transparent;
+  }
+
+  .btn-inserir:hover, .btn-relatorio:hover{
+    width: 11%;
+    height: 5.5vh;
+    background-color: rgb(20, 20, 83);
+    color: white
+  }
+
+  .form-container-inserir{
+    position: fixed;
+    top: 47%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 96%;
+    height: 75vh;
+    z-index: 1000;
+    border-radius: 5px;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  .form-container-inserir h2{
+    text-align: center;
+    color: rgb(20, 20, 87);
+    font-size: 16px;
+  }
+
+  .form-container-inserir form{
+    margin-top: 6%;
+    margin-left: 4%;
+  }
+
+  .form-container-inserir input{
+    width: 30%;
+    height: 3.5vh;
+  }
+
+  .form-container-inserir select{
+    width: 31%;
+    height: 5vh;
+  }
+
+  .labObs::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+  }
+
+ .btn-guardar{
+  width: 30%;
+  height: 6vh;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  margin-left: 62%;
+ }
+
+ .btn-guardar:hover{
+  width: 31%;
+  height: 6.5vh;
+ }
+
+ .search_prod input{
+  position: relative;
+  width: 40%;
+  height: 7vh;
+  margin-left: 50%;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  outline: none;
+}
+
+.search_prod input::placeholder{
+  color: black;
+}
+
+.search_prod i{
+  position: absolute;
+  left: 51%;
+  top: 29%;
+  transform: translateY(50%);
+  font-size: 22px;
+}
+
+.help{
+  position: relative;
+  top: -65%;
+  left: 60%;
+}
+
+.pro{
+  position: relative;
+  top: -60%;
+  left: 5%;
+  font-size: 16px;
+}
+
+.fechar_aba{
+  width: 20%;
+  height: 5vh;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 55%;
+  border: none;
+  border-radius: 5px;
+}
+
+/*CSS dos clientes*/
+.form-container-clientes{
+  position: fixed;
+  top: 60%;
+  left: 23%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 73%;
+  height: 60vh;
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+.hidden{
+  display: none;
+}
+
+.aba-cliente{
+  position: relative;
+  top: -40%;
+  left: 0%;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 99%;
+  height: 16vh;
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+.help_clie{
+  position: relative;
+  top: -45%;
+  left: 60%;
+}
+
+.clie{
+  position: relative;
+  top: -40%;
+  left: 5%;
+  font-size: 16px;
+}
+
+.btn-inserir-clie, select{
+  position: relative;
+  top: 10%;
+  left: 2%;
+  width: 10%;
+  height: 5vh;
+  border-radius: 3px;
+  border: 1px solid black;
+  background: transparent;
+}
+
+.btn-inserir-clie:hover{
+  width: 11%;
+  height: 5.5vh;
+  background-color: rgb(20, 20, 83);
+  color: white
+}
+
+.search_cli input{
+  position: relative;
+  width: 40%;
+  height: 7vh;
+  margin-left: 50%;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  outline: none;
+}
+
+.search_cli input::placeholder{
+  color: black;
+}
+
+.search_cli i{
+  position: absolute;
+  left: 51%;
+  top: 29%;
+  transform: translateY(50%);
+  font-size: 22px;
+}
+
+.form-container-inserir-cliente{
+  position: fixed;
+  top: 47%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 96%;
+  height: 65vh;
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+.hidden{
+  display: none;
+}
+
+.form-container-inserir-cliente form{
+  margin-top: 6%;
+
+}
+
+.form-container-inserir-cliente input{
+  width: 35%;
+  height: 3.5vh;
+}
+
+.form-container-inserir-cliente select{
+  width: 36%;
+  height: 5vh;
+}
+
+.btn-guardar-cliente{
+  width: 30%;
+  height: 6vh;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  margin-left: 35%;
+  margin-top: 60px;
+ }
+
+ .form-container-estoque {
+  position: fixed;
+  top: 50%;
+  left: 23%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 73%;
+  height: 70vh;
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.estq{
+  position: relative;
+  top: -30%;
+  left: 5%;
+  font-size: 16px;
+}
+
+.help-estoque{
+  position: relative;
+  top: -35%;
+  left: 60%;
+}
+
+.info{
+  position: relative;
+  top: -35%;
+  left: 3%;
+  background-color: rgb(10, 10, 73);
+  color: white;
+  width: 10%;
+  height: 6vh;
+  text-align: center;
+  border: none;
+   border-radius: 5px;
+}
+
+.form-container-estoque p{
+  font-size: 16px;
+  padding-top: 7px;
+}
+
+/*CSS da aba das financas*/
+.form-container-financeiro{
+  position: fixed;
+  top: 65%;
+  left: 23%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 20%;
+  height: 60vh;
+  z-index: 1000;
+  border-radius: 7px;
+}
+
+.hidden{
+  display: none;
+}
+
+.vendas-hoje{
+  position: relative;
+  top: -65%;
+  background-color: rgb(0, 238, 226);
+  color: white;
+  width: 108%;
+  height: 25vh;
+  border: none;
+  border-radius: 7px;
+}
+
+.vendas-hoje i{
+ font-size: 100px;
+ margin-top: 5%;
+ margin-left: 60%;
+}
+
+.vendas-hoje p{
+  position: absolute;
+  font-size: 30px;
+  top: 35%;
+  left: 10%;
+ }
+
+ .vendas-hoje input{
+  position: absolute;
+  font-size: 30px;
+  top: 25%;
+  left: 10%;
+  width: 40%;
+  height: 5vh;
+  background: transparent;
+  text-align: center;
+  border: none;
+  color: white;
+ }
+
+ .vendas-hoje input::placeholder{
+  color: white;
+}
+
+
+.vendas-total{
+  position: relative;
+  top: -106%;
+  left: 120%;
+  background-color: rgb(84, 248, 84);
+  color: white;
+  width: 110%;
+  height: 25vh;
+  border: none;
+  border-radius: 7px;
+}
+
+.vendas-total i{
+ font-size: 100px;
+ margin-top: 4%;
+ margin-left: 66%;
+}
+
+.vendas-total p{
+  position: absolute;
+  font-size: 30px;
+  top: 35%;
+  left: 10%;
+ }
+
+ .vendas-total input{
+  position: absolute;
+  font-size: 30px;
+  top: 25%;
+  left: 10%;
+  width: 40%;
+  height: 5vh;
+  background: transparent;
+  text-align: center;
+  border: none;
+  color: white;
+ }
+
+ .vendas-total input::placeholder{
+  color: white;
+}
+
+
+.vendas-pagar{
+  position: relative;
+  top: -147%;
+  left: 240%;
+  background-color: rgb(236, 22, 22);
+  color: white;
+  width: 108%;
+  height: 25vh;
+  border: none;
+  border-radius: 7px;
+}
+
+.vendas-pagar i{
+ font-size: 100px;
+ margin-top: 5%;
+ margin-left: 60%;
+}
+
+.vendas-pagar p{
+  position: absolute;
+  font-size: 30px;
+  top: 35%;
+  left: 10%;
+ }
+
+ .vendas-pagar input{
+  position: absolute;
+  font-size: 30px;
+  top: 25%;
+  left: 10%;
+  width: 40%;
+  height: 5vh;
+  background: transparent;
+  border: none;
+  color: white;
+ }
+
+ .vendas-pagar input::placeholder{
+  color: white;
+}
+
+.pagamentos{
+    position: relative;
+    top: -145.5%;
+    left: 119.5%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 230%;
+    height: 65.5vh;
+    z-index: 1000;
+    border-radius: 7px;
+}
+
+/*CSS dos servicos*/
+
+.form-container-usuario{
+  position: fixed;
+  top: 50%;
+  left: 23%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  height: 75vh;
+  z-index: 1000;
+  border-radius: 7px;
+}
+
+.hidden{
+  display: none;
+}
+
+.input-file-container {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+}
+
+.input-file-container i{
+  font-size: 100px;
+  width: 60%;
+  height: 8vh;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1; /* Garante que o input fique sobre a imagem */
+}
+
+.file-label {
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  width: 42%;
+  height: 25vh;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: inline-block;
+  z-index: 2; /* Garante que o rótulo fique sobre a imagem */
+}
+
+.file-label:hover {
+  background-color: #e0e0e0;
+}
+
+.file-label:focus {
+  outline: none;
+}
+
+.img {
+  position: relative;
+  width: 50%;
+  height: 28.5vh;
+  object-fit: cover; /* Garante que a imagem preencha a div sem distorção */
+  border: none;
+  margin-top: -180px; /* Ajuste conforme necessário */
+  z-index: 0; /* Garante que a imagem fique atrás do rótulo e do input */
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Garante que a imagem preencha a div sem distorção */
+}
+
+.form-container-usuario hr{
+  position: relative;
+  top: 5%;
+}
+
+.form-usuario{
+  position: relative;
+  top: 0%;
+  left: 5%;
+}
+
+.form-usuario input{
+  width: 30%;
+  height: 5vh;
+}
+
+.form-usuario select{
+  width: 31%;
+  height: 7vh;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000; /* Z-index alto para garantir que fique acima de todas as outras abas */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-content .form-group {
+  margin-bottom: 15px;
+}
+
+.modal-content label {
+  display: block;
+}
+
+.modal-content input[type="email"],
+.modal-content input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.modal-content input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.modal-content input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.modal-content .close {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  float: right;
+}
+
+.modal-content .close:hover {
+  background-color: #d32f2f;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.failure{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  background-color: rgb(252, 54, 54);
+  color: white;
+  font-size: 25px;
+  width: 30%;
+  text-align: center;
+  height: 15vh;
+  padding-top: 50px;
+}
+
+.content{
+  position: absolute;
+  top: 0%;
+  width: 98%;
+  height: 65vh;
+}
+
